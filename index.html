@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title> Renata's Homework</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  </head>
+
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">How weather varies with latitude: A summary </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-md-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Latitude vs. Max Temperature   </a>
+              <a class="dropdown-item" href="#">Latitude vs. Humidity   </a>
+              <a class="dropdown-item" href="#">Latitude vs. Cloudiness   </a>
+              <a class="dropdown-item" href="#">Latitude vs. Wind Speed   </a>
+          </div>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Data</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Our rows function in containers (grid created). -->
+  <div class="container">
+
+    <!-- Our columns function in rows. -->
+    <div class="row">
+
+      <!-- Columns have 12 areas of width to work with. -->
+
+      <!-- One third of screen (4/12) -->
+      <div class="col-md-4">
+        <!-- This is column 1 of 3 -->
+      </div>
+
+      <!-- One third of screen (4/12) -->
+      <div class="col-md-4">
+        <!-- This is column 2 of 3 -->
+      </div>
+
+      <!-- One third of screen (4/12) -->
+      <div class="col-md-4">
+
+        <!-- This is column 3 of 3 -->
+      </div>
+
+      <!-- Columns float left, so all adjacent rows will appear next to each other (as long as not all space gets taken up) -->
+    </div>
+
+  </div>
+
+
+  <!-- Creates the Overall Grid -->
+  <div class="container">
+    <h1>
+      Summary: How weather varies with latitude?
+    </h1>
+    The purpose of this project is to analyze how weather varies as you get closer to the Equator. To accomplish this analysis, 
+    we first pulled data from the OpenWeatherMap API to assemble a dataset over 500 cities.
+
+    <br>
+    <br>
+
+    After assembling the dataset, we use Matplotlib to plot various aspects of weather vs. latitude. Factors that we looked at include:
+    temperature, cloudiness, wind speed, and humidity. This site provide the source data and visualization created as part of the
+    analysis, as well as explanations and descriptions of any trends and correlations founded.
+    
+  </div>
+
+</body>
+
+</html>
